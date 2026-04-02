@@ -1,5 +1,4 @@
 // MADE BY ROSY
-// for everyone by someone
 const mineflayer = require('mineflayer');
 
 const bot = mineflayer.createBot({
