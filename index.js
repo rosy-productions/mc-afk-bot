@@ -28,7 +28,7 @@ bot.on('spawn', () => {
         bot.chat('/register MyPassword123 MyPassword123'); // CHANGE TO THE PASSWORD YOU LIKE
         setTimeout(() => {
           bot.chat('/login MyPassword123'); // CHANGE TO YOUR PASSWORD
-        }, 2000);
+        }, 10);
         
         startAntiAFK();
       }
