@@ -24,7 +24,7 @@ bot.on('spawn', () => {
       if (typeof bot.entity.position.x === 'number') {
         bot.physics.enabled = true;
         console.log('Coordinates synced as numbers. Sending login...');
-        
+        bot.chat('/login MyPassword123'); // CHANGE TO YOUR PASSWORD
         bot.chat('/register MyPassword123 MyPassword123'); // CHANGE TO THE PASSWORD YOU LIKE
         setTimeout(() => {
           bot.chat('/login MyPassword123'); // CHANGE TO YOUR PASSWORD
