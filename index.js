@@ -10,7 +10,7 @@ const bot = mineflayer.createBot({
 // 1. SAFE LOGIN LOGIC
 bot.on('spawn', () => {
   // THE FIX: Completely disable physics to stop 'true/false' boolean packets
-  bot.physics.enabled = false; 
+  bot.physicsEnabled = false; 
   console.log('Physics disabled to prevent Boolean packet errors...');
 
   if (!bot.hasSpawned) {
